@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Submit</title>
+
+</head>
+<body>
+<!--dir="rtl"--><h1>Submit Page</h1>
+
+    <a href="Home.html"> Home </a> 
+    <br>
+    <a href="Search.html"> Search </a>
+    <br>
+    <a href="Submit.html"> Submit </a>
+    <br> <br>
+    <form>
+        <label for="picture">Upload a picture:</label>
+        <input type="file" accept="image/png, image/jpeg, image/jpg" name="picture">  
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <form>
+
+        <h2>Advance Search:</h2>
+
+        <h3>By Height:</h3>
+        <input type="checkbox" id="heightless" name="hless" value="heightles">
+        <label for="heightless">Height < 300</label> &nbsp;
+        <input type="checkbox" id="height300" name="h_300" value="height3">
+        <label for="height300">Height: 300</label> &nbsp;
+        <input type="checkbox" id="height400" name="h_400" value="height4">
+        <label for="height400">Height: 400</label> &nbsp;
+        <input type="checkbox" id="heightmore" name="hmore" value="heightmor">
+        <label for="heightmore">Height > 400</label>
+        
+        <br> <br>
+        
+        <h3>By Width:</h3>
+        <input type="checkbox" id="widthless" name="wless" value="widthles">
+        <label for="widthless">Width < 300</label> &nbsp;
+        <input type="checkbox" id="width300" name="w_300" value="w-300" >
+        <label for="width300">Width: 300</label> &nbsp;
+        <input type="checkbox" id="widthbig" name="w_500" value="w-500">
+        <label for="widthbig">Width: 500</label> &nbsp;
+        <input type="checkbox" id="widthmore" name="wmore" value="widthmor">
+        <label for="widthmore">Width > 400</label>
+
+        <br> <br>
+
+        <h3>By Type:</h3>
+        <input type="checkbox" id="jpegtype" name="typejpeg" value="typejpeg" >
+        <label for="jpegtype">JPEG</label>
+        <input type="checkbox" id="pngtype" name="typepng" value="typepng">
+        <label for="pngtype">PNG</label>
+        <input type="checkbox" id="jpgtype" name="typejpg" value="typejpg">
+        <label for="jpgtype">JPG</label>
+
+</body>
+</html>
