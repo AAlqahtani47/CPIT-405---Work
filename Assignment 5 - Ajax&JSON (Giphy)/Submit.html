@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="./SubmitCSS.css">
+    
+    <title>Submit</title>
+
+</head>
+
+<body>
+    <!--dir="rtl"-->
+    <h1>Submit Page</h1>
+
+    <ul>
+        <li><a href="Homehtml.html"> Home </a></li>
+        <li><a href="Search.html"> Search </a></li>
+        <li><a href="Submit.html"> Submit </a></li>
+    </ul>
+
+    <form class="upload">
+        
+        <button name="submit" id="add-pic">Submit</button>
+        <input type="file" accept="image/png, image/jpeg, image/jpg" name="picture">
+    </form>
+
+    <br>
+
+    <table>
+        <tr>
+            <th colspan="1">Advanced Search</th>
+            <th colspan="2"><input type="search" value="" placeholder="Search"></th>
+        </tr>
+        <tr>
+            <th colspan="3">Filter by</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Height</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="heightless" name="hless" value="heightles">
+                <label for="heightless">Height < 300</label>
+            </td>
+            <td><input type="checkbox" id="width300" name="w_300" value="w-300">
+                <label for="width300">Width: 300</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="height400" name="h_400" value="height4">
+                <label for="height400">Height: 400</label>
+            </td>
+            <td>
+                <input type="checkbox" id="width300" name="w_300" value="w-300">
+                <label for="width300">Width: 300</label>
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="3">Width</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="widthless" name="wless" value="widthles">
+                <label for="widthless">Width < 300</label>
+            </td>
+            <td><input type="checkbox" id="width300" name="w_300" value="w-300">
+                <label for="width300">Width: 300</label>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="widthbig" name="w_500" value="w-500">
+                <label for="widthbig">Width: 500</label>
+            </td>
+            <td>
+                <input type="checkbox" id="widthmore" name="wmore" value="widthmor">
+                <label for="widthmore">Width > 400</label>
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <th rowspan="3">Type</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" id="jpegtype" name="typejpeg" value="typejpeg">
+                <label for="jpegtype">JPEG</label>
+            </td>
+            <td><input type="checkbox" id="pngtype" name="typepng" value="typepng">
+                <label for="pngtype">PNG</label>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="jpgtype" name="typejpg" value="typejpg">
+                <label for="jpgtype">JPG</label>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
+
